@@ -10,23 +10,38 @@ The following guide assumes Python 3.x to be the default python runtime environm
 
 `git clone https://github.com/jiayi1129/AttendanceProject.git`
 
-2. Install the required dependencies.
+2. Install a working C++ compiler, we used the one from Microsoft Visual Studio 2019.
+
+link: https://visualstudio.microsoft.com/downloads/
+
+NOTE: you have to go into Microsoft Visual Studio after its been installed and search for
+C++ compiler and download it
+
+3. Install Cmake
+
+link: https://cmake.org/download/
+
+4. Install the required dependencies.
 
 This will install the cv2 and numpy library.
 
 `pip install opencv-python`
 
+This will download Dlib.
+
+`pip install dlib`
+
 This will install the face-recognition library.
 
 `pip install face-recognition`
 
-3. Input images you want to train into the `ImagesAttendance` folder 
+5. Input images you want to train into the `ImagesAttendance` folder 
 
 
 Note `Bill Gates.jpg`, `Elon Musk.jpg` and `Jack Ma.jpg` are placed inside the folder as example, running the program and showing an image of those 3 people will work as well. 
 Input image should only contain one face and the file name should correspond to the label for the person inside the image.
 
-4. Run the program
+6. Run the program
 
 `python AttendanceProject.py`
 
