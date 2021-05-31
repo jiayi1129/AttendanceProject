@@ -1,6 +1,7 @@
 # AttendanceProject
 
 Simple and Easy to use Attendance Taking System using the face-recognition library.
+
 Video Demo: https://drive.google.com/file/d/1AcmbCe-Z6q4x8TFPQM2Y7UduuAd6pR5L/view?usp=sharing
 
 # Usage
